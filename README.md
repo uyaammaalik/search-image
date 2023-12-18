@@ -27,7 +27,7 @@ Before you begin, ensure you have the following installed:
 2. Clone the repository:
 
    ```bash
-   git clone https://github.com/uyaammaalik/search_image.git
+   git clone https://github.com/uyaammaalik/search-image.git
    cd search-image
 
    ```
