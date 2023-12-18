@@ -21,8 +21,21 @@ Before you begin, ensure you have the following installed:
 
 ### Installation
 
-1. Clone the repository:
-   Git Repository: [https://github.com/uyaammaalik/search_image.git](https://github.com/uyaammaalik/search_image.git)
+1. Get Youtube API
+   [Get your Unsplash API] (https://unsplash.com/developers)
+
+2. **Create a `.env` file:**
+   In the root of your project, create a file named `.env`.
+
+3. **Add the following variables to your `.env` file:**
+
+   ```env
+   REACT_APP_API_KEY=your_api_key_here
+   REACT_APP_API_URL=https://api.unsplash.com
+
+   ```
+
+4. Clone the repository:
 
    ```bash
    git clone https://github.com/uyaammaalik/search_image.git
@@ -30,7 +43,7 @@ Before you begin, ensure you have the following installed:
 
    ```
 
-2. Install dependencies:
+5. Install dependencies:
 
    ```bash
    npm install
